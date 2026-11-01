@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小本帳 POS 隱私權政策</title>
+<meta name="description" content="小本帳 POS（Android 收銀點餐 App）的隱私權政策：收集哪些資料、如何使用、如何刪除。">
+<style>
+:root{--bg:#FBF7F3;--card:#FFFFFF;--text:#2B2622;--sub:#6F665E;--line:#EADFD4;--pri:#9C7556;--tint:#F5EEE7}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1C1916;--card:#26221E;--text:#EFE8E1;--sub:#B3A89D;--line:#3A332D;--pri:#D2AE8C;--tint:#2F2924}}
+:root[data-theme="dark"]{--bg:#1C1916;--card:#26221E;--text:#EFE8E1;--sub:#B3A89D;--line:#3A332D;--pri:#D2AE8C;--tint:#2F2924}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.8 -apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:28px;line-height:1.3;margin:0 0 6px}
+.meta{color:var(--sub);font-size:14px;margin:0 0 24px}
+.sum{background:var(--tint);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:0 0 28px}
+.sum ul{margin:6px 0 0;padding-left:20px}
+h2{font-size:19px;margin:32px 0 8px;padding-top:4px;border-top:1px solid var(--line)}
+h2:first-of-type{border-top:0}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--tint);font-weight:600;white-space:nowrap}
+a{color:var(--pri)}
+footer{color:var(--sub);font-size:14px;margin-top:40px}
+</style>
+</head>
+<body>
+<main>
+<h1>小本帳 POS 隱私權政策</h1>
+<p class="meta">生效日期：2026 年 11 月 1 日　·　適用 App：小本帳 POS（Android，套件名稱 tw.xiaobenzhang.pos）</p>
+
+<div class="sum">
+<strong>重點摘要</strong>
+<ul>
+<li>訂單、菜單、報表、設定都只存在你的平板上，我們看不到。</li>
+<li>App 沒有廣告、沒有追蹤、沒有分析工具，也不會把資料賣給任何人。</li>
+<li>只有在你<strong>自己選擇登入小本帳</strong>時，才會把「每日營業額合計」傳到你的小本帳帳號。</li>
+<li>備份檔存在你自己選的位置（例如你的 Google 雲端硬碟），我們拿不到。</li>
+</ul>
+</div>
+
+<h2>1. 我們是誰</h2>
+<p>小本帳 POS 由「小本帳」（營運者：Jerry Chi，以下稱「我們」）開發與提供，是給小吃店、早餐店等店家使用的點餐、收銀與出單 App。本政策說明 App 會處理哪些資料、用途，以及你可以如何控制這些資料。</p>
+
+<h2>2. 只存在你裝置上的資料</h2>
+<p>以下資料由店家在使用時自行建立，<strong>只儲存在安裝 App 的裝置裡</strong>，不會傳送給我們：</p>
+<ul>
+<li>店名、菜單（品項、價格、加料、規格、客製化選項）</li>
+<li>訂單紀錄（品項、數量、金額、付款方式、內用／外帶、備註、時間）與關帳紀錄</li>
+<li>App 設定（出單機設定、顯示選項、備份時間等）</li>
+</ul>
+<p>App 不會要求、也不會收集來點餐的顧客的姓名、電話或任何個人資料。</p>
+
+<h2>3. 選擇連接小本帳時傳送的資料</h2>
+<p>「連接小本帳」是選用功能，不登入也能使用全部的點餐、出單、報表功能。若你選擇登入，App 會處理下列資料：</p>
+<table>
+<tr><th>資料</th><th>用途</th><th>傳送到哪裡</th></tr>
+<tr><td>小本帳帳號 Email 與密碼</td><td>登入你的小本帳帳號</td><td>小本帳的雲端服務（透過 HTTPS 加密傳輸）</td></tr>
+<tr><td>每日營業額合計、日期，以及你選擇的店家與營收通路</td><td>關帳時把當天營業額自動記到你的小本帳，免手動輸入</td><td>你的小本帳帳號</td></tr>
+</table>
+<p>只會傳送「當天合計金額」，<strong>不會傳送個別訂單明細</strong>。若你勾選「記住密碼」，密碼會用 Android 系統金鑰庫（Android Keystore）加密後只存在這台裝置上，用於登入過期時自動重新登入；你可以隨時在 App 的「設定」中登出並清除。</p>
+<p>小本帳的雲端資料庫由第三方雲端服務供應商 Supabase 代為託管，伺服器可能位於台灣以外的地區。供應商僅依我們的指示處理資料，不會將資料用於其他目的。</p>
+
+<h2>4. 備份</h2>
+<p>「資料備份」會把訂單、菜單與設定匯出成一個檔案，存到<strong>你自己選擇的位置</strong>（例如裝置的下載資料夾或你的 Google 雲端硬碟）。我們無法存取這個檔案。為了安全，備份檔<strong>不包含</strong>小本帳的登入憑證與密碼。</p>
+
+<h2>5. 裝置權限</h2>
+<table>
+<tr><th>權限</th><th>用途</th></tr>
+<tr><td>藍牙（附近的裝置）</td><td>連接藍牙熱感應出單機。不會用於定位，也不會掃描其他裝置的資料。</td></tr>
+<tr><td>USB</td><td>連接 USB 出單機。</td></tr>
+<tr><td>網路</td><td>連接網路出單機、同步小本帳（選用）。</td></tr>
+<tr><td>開機後執行</td><td>重新開機後恢復「每天定時自動備份」的排程。</td></tr>
+</table>
+<p>App 不使用相機、麥克風、定位、通訊錄或相簿。</p>
+
+<h2>6. 我們不做的事</h2>
+<ul>
+<li>不放廣告，不使用廣告識別碼。</li>
+<li>不使用第三方分析、追蹤或當機回報工具。</li>
+<li>不出售、出租或與第三方分享你的資料作為行銷用途。</li>
+</ul>
+
+<h2>7. 資料保存與刪除</h2>
+<ul>
+<li><strong>裝置上的資料</strong>：在 App「菜單」頁可清空菜單；解除安裝 App 或在系統設定中「清除儲存空間」，會刪除裝置上所有 App 資料。</li>
+<li><strong>小本帳登入資料</strong>：在 App「設定」中按「登出」，即刪除裝置上的登入憑證與加密密碼。</li>
+<li><strong>已同步到小本帳的營業額</strong>：可在小本帳中自行修改或刪除；若要刪除整個小本帳帳號與所有資料，請來信與我們聯絡，我們會在 30 天內處理。</li>
+</ul>
+
+<h2>8. 資料安全</h2>
+<p>所有與小本帳的連線皆使用 HTTPS 加密。記住的密碼以 Android Keystore 加密保存，App 內不含任何可讀寫他人資料的管理金鑰。</p>
+
+<h2>9. 兒童隱私</h2>
+<p>本 App 是給店家營業使用的工具，不以 13 歲以下兒童為對象，也不會在知情的情況下收集兒童的個人資料。</p>
+
+<h2>10. 政策更新</h2>
+<p>若 App 新增會影響資料處理方式的功能（例如未來串接線上點餐），我們會更新本政策並修改上方的生效日期；重大變更會在 App 更新說明中告知。</p>
+
+<h2>11. 聯絡我們</h2>
+<p>對本政策或你的資料有任何問題，或要申請刪除資料，請來信：<a href="mailto:jerry6983@gmail.com">jerry6983@gmail.com</a></p>
+
+<footer>© 2026 小本帳</footer>
+</main>
+</body>
+</html>
